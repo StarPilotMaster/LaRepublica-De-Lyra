@@ -1,0 +1,18 @@
+h1 {
+    color: #F3BA36 ;
+}
+
+.rotate-1deg {
+    display: inline-block;
+    transform-origin: center;
+    animation: rotate-1deg-per-frame 6s linear infinite;
+}
+
+@keyframes rotate-1deg-per-frame {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
