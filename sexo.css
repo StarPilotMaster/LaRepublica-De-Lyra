@@ -1,5 +1,12 @@
 h1 {
     color: #F3BA36 ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold   ;
+}
+
+::backdrop {
+    background-color: #8CFFDB ;
 }
 
 .rotate-1deg {
